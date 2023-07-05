@@ -1,0 +1,63 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+
+
+img{
+	width:75%;
+	height:75%;
+}
+
+.row{
+	display:flex;
+	flex-wrap:no wrap;
+	width:100%;
+}
+
+.col1, .col2{
+	width:50%;
+
+}
+
+img.blur{
+	filter:blur(5px);
+}
+
+img.brightness{
+	filter:brightness(20%);
+}
+
+img.contrast{
+	filter:contrast(20%);
+}
+
+img.gray-scale{
+	filter:grayscale(90%);
+}
+
+
+img.hue-rotate{
+	filter:hue-rotate(180deg);
+}
+
+img.invert{
+	filter:invert(90%);
+}
+
+img.opacity{
+	filter:opacity(20%);
+}
+
+img.saturate{
+	filter:saturate(20%);
+}
+img.sepia{
+	filter:sepia(100%);
+}
+
+img.shadow{
+	filter:drop-shadow(100px 50px 2px yellow);
+}
+}
